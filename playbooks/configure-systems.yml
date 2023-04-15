@@ -1,6 +1,6 @@
 ---
 - name: Configure systems
-  hosts: servers
+  hosts: idm
   become: True
 
   tasks:
