@@ -3,8 +3,6 @@
   hosts: idm
   become: True
 
-  tasks:
-  - name: Call Roles
-    roles:
-      - motd
+  roles:
+    - motd
 ...
