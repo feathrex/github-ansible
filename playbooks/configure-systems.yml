@@ -5,7 +5,6 @@
 
   tasks:
   - name: Call Roles
-    hosts: servers
     roles:
       - motd
 ...
