@@ -1,0 +1,10 @@
+---
+- name: Configure systems
+  hosts: idm
+  become: True
+
+  tasks:
+  - name: Debug Testing
+    debug:
+      msg: "This is simply a test..."
+...
