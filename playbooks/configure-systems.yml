@@ -1,0 +1,11 @@
+---
+- name: Configure systems
+  hosts: servers
+  become: True
+
+  tasks:
+  - name: Call Roles
+    hosts: servers
+    roles:
+      - motd
+...
