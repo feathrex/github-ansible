@@ -1,7 +1,7 @@
 ---
-- name: Configure systems
-  hosts: idm
+- hosts: idm
   become: True
+  gather_facts: True
 
   roles:
     - motd
