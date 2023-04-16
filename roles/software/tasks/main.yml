@@ -1,8 +1,8 @@
 ---
 # tasks file for software
 
-- name: Install zsh
+- name: Install bash-completion
   package:
-    name: zsh
+    name: bash-completion
     state: present
 
