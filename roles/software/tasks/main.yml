@@ -1,0 +1,8 @@
+---
+# tasks file for software
+
+- name: Install zsh
+  package:
+    name: zsh
+    state: present
+
